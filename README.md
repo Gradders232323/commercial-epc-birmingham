@@ -4,9 +4,23 @@ A responsive static website for a Birmingham and West Midlands commercial EPC se
 
 ## Pages
 
-- Home: services, process, coverage, quote form and FAQs
+- Home: services, process, coverage, quotation entry and FAQs
 - About: service approach, principles and assessment scope
-- Quote: enquiry form and preparation guidance
+- Quote: five-step, multi-service quotation and booking form
+
+## Booking form
+
+`/quote` embeds the Birmingham-branded shared form at
+`https://gradwell-inspection-booking.info512176.chatgpt.site/birmingham-service-quote`.
+The shared application owns postcode lookup, pricing, the inline calendar, validation,
+and submissions. This static site does not collect or post customer details directly.
+
+`quote-embed.js` accepts only `birmingham:service-quote:*` messages from that exact
+iframe and hosted origin. The parent sends allowlisted campaign attribution and a
+sanitised page URL; conversion analytics contain no customer details. There is an
+always-visible direct-form fallback. Existing `/quote` canonical links are retained.
+
+Run static and message-boundary tests with `node --test tests/*.test.mjs`.
 
 ## Run locally
 
