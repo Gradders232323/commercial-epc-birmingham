@@ -32,6 +32,15 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Deployment
+## Photography
+
+The eight photographs in `images/` were supplied for the Birmingham website.
+The numeric filename suffixes map to the original `IMG_<number>.HEIC` files.
+Each image has a 1200 × 1600 JPEG fallback, a WebP version and a 600 × 800
+WebP variant. Published files omit EXIF and location metadata; the original
+HEIC files are not included. The city gallery is contextual photography,
+not a claim that the pictured buildings are completed client projects.
+
+## Publishing
 
 The site is ready for GitHub Pages. In the repository settings, choose **Pages → Deploy from a branch**, then select the `main` branch and `/ (root)` folder.
