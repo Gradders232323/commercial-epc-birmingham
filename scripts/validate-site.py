@@ -40,7 +40,19 @@ for field in ['title','desc','h1text']:
  values=[getattr(p,field).strip().casefold() for rel,p in data.items() if rel!='404.html']
  if len(values)!=len(set(values)):errors.append(f'Duplicate {field} across indexable site')
 ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'};urls=[n.text for n in ET.parse(ROOT/'sitemap.xml').findall('.//s:loc',ns)]
-if len(urls)!=104 or len(set(urls))!=104:errors.append('Expected 104 distinct sitemap URLs')
+tm44=json.loads((ROOT/'data/tm44-locations.json').read_text()) if (ROOT/'data/tm44-locations.json').exists() else []
+expected=121+len(tm44)+(1 if tm44 else 0)
+if len(urls)!=expected or len(set(urls))!=expected:errors.append(f'Expected {expected} distinct sitemap URLs')
+if tm44:
+ directory_tm44=data['tm44-locations/index.html']
+ for row in tm44:
+  path='/'+row['slug']+'/'
+  if path not in directory_tm44.links:errors.append(f'TM44 directory missing {path}')
+  page=data[row['slug']+'/index.html']
+  if page.h1text.strip()!=row['h1']:errors.append(f'TM44 H1 mismatch: {path}')
+  if page.canonical!=['https://birminghamcommercialepc.co.uk'+path]:errors.append(f'TM44 canonical mismatch: {path}')
+  if '/'+row['epcSlug']+'/' not in page.links:errors.append(f'TM44 missing related EPC: {path}')
+  if path not in data[row['epcSlug']+'/index.html'].links:errors.append(f'EPC missing related TM44: {path}')
 directory=data['locations/index.html'];location_paths={urlsplit(r['url']).path for r in json.loads((ROOT/'data/seo-pages.json').read_text())['pages'][1:]}
 if not location_paths.issubset(set(directory.links)):errors.append('Directory does not link to every location')
 result={'htmlPages':len(pages),'indexablePages':len(pages)-1,'sitemapUrls':len(urls),'locationDirectoryLinks':len(location_paths),'errors':errors,'status':'PASS' if not errors else 'FAIL'}

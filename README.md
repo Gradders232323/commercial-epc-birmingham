@@ -62,3 +62,19 @@ scope exists. HTML, CSV and JSON reports are written to `reports/seo-audit.*`.
 The checks cover exact keyword placement, individual field uniqueness, one H1,
 H1/title differences, repeated description skeletons, character counts and an
 exact-keyword repetition flag. Editorial review remains necessary for naturalness.
+
+## Individual service pages
+
+The `/services/` overview links 17 services: the established EPC homepage plus 16 dedicated existing-building service pages. `data/service-pages.json` holds their individual scope, FAQ and metadata content; `data/services.json` maps overview cards to their destinations. Regenerate with `python3 scripts/generate-services.py`. The location generator also retains these service URLs in the sitemap. Existing EPC page metadata is unchanged. Service CTA links use the existing Birmingham shared quote/booking journey. No new pricing, provider qualifications or guaranteed outcomes are claimed.
+
+## Birmingham TM44 location pages
+
+`data/tm44-locations.json` contains 50 individually scoped commercial-property
+briefs and unique metadata. Run `python3 scripts/generate-tm44-locations.py` to
+render `/tm44-inspections-<location>/`, the `/tm44-locations/` directory, related
+EPC/service links and sitemap entries. The EPC and service generators retain
+this coverage when rerun. The established `/tm44-inspection-birmingham/` remains
+the main Birmingham TM44 service page. `scripts/validate-site.py` verifies all
+172 indexable URLs and reciprocal EPC/TM44 links. Quote links retain `/quote` and
+the existing Birmingham shared form. No pricing or provider credentials were
+added. Statutory scope is linked to government air-conditioning guidance.
