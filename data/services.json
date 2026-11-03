@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Commercial EPCs",
+    "group": "Energy Certificates",
+    "summary": "Energy performance assessments for existing offices, shops, warehouses and other non-domestic premises.",
+    "href": "/"
+  },
+  {
+    "name": "Display Energy Certificates (DEC)",
+    "group": "Energy Certificates",
+    "summary": "Operational energy ratings for qualifying publicly occupied buildings.",
+    "href": "/display-energy-certificate-birmingham/"
+  },
+  {
+    "name": "TM44 Air Conditioning Inspections",
+    "group": "HVAC Compliance",
+    "summary": "Air-conditioning energy inspections, reviewing efficiency, controls and operation.",
+    "href": "/tm44-inspection-birmingham/"
+  },
+  {
+    "name": "Fire Risk Assessments",
+    "group": "Building Safety",
+    "summary": "A building-specific review of fire risks and the measures needed to manage them.",
+    "href": "/fire-risk-assessment-birmingham/"
+  },
+  {
+    "name": "Legionella Risk Assessments",
+    "group": "Building Safety",
+    "summary": "A review of water-system risks and the arrangements needed to control them.",
+    "href": "/legionella-risk-assessment-birmingham/"
+  },
+  {
+    "name": "DEC Advisory Reports",
+    "group": "Energy Certificates",
+    "summary": "Practical energy recommendations to accompany a Display Energy Certificate.",
+    "href": "/dec-advisory-report-birmingham/"
+  },
+  {
+    "name": "MEES Compliance Assessments",
+    "group": "Energy Compliance",
+    "summary": "Review EPC ratings, letting circumstances and improvement evidence for MEES.",
+    "href": "/mees-compliance-assessment-birmingham/"
+  },
+  {
+    "name": "EPC Improvement Reports",
+    "group": "Energy Compliance",
+    "summary": "Assess practical options to improve an existing commercial EPC rating.",
+    "href": "/epc-improvement-report-birmingham/"
+  },
+  {
+    "name": "Commercial Energy Audits",
+    "group": "Energy Compliance",
+    "summary": "Investigate building energy use and practical efficiency opportunities.",
+    "href": "/commercial-energy-audit-birmingham/"
+  },
+  {
+    "name": "ESOS Compliance Assessments",
+    "group": "Energy Compliance",
+    "summary": "Scope organisation-level ESOS assessment and evidence requirements.",
+    "href": "/esos-compliance-assessment-birmingham/"
+  },
+  {
+    "name": "F-Gas Leak Checks",
+    "group": "HVAC Compliance",
+    "summary": "Leak-check enquiries for refrigerant equipment in existing commercial premises.",
+    "href": "/f-gas-leak-check-birmingham/"
+  },
+  {
+    "name": "TR19 Ventilation Hygiene Inspections",
+    "group": "HVAC Compliance",
+    "summary": "Review ventilation cleanliness, access and hygiene evidence in existing buildings.",
+    "href": "/tr19-ventilation-hygiene-inspection-birmingham/"
+  },
+  {
+    "name": "Asbestos Management Surveys",
+    "group": "Building Safety",
+    "summary": "Assess accessible suspect materials to support management of existing premises.",
+    "href": "/asbestos-management-survey-birmingham/"
+  },
+  {
+    "name": "Commercial Water Hygiene Assessments",
+    "group": "Building Safety",
+    "summary": "Review water-system condition, records and management arrangements.",
+    "href": "/commercial-water-hygiene-assessment-birmingham/"
+  },
+  {
+    "name": "Commercial Electrical EICR Inspections",
+    "group": "Electrical & Gas Safety",
+    "summary": "Inspect and test the condition of an existing commercial electrical installation.",
+    "href": "/commercial-electrical-eicr-inspection-birmingham/"
+  },
+  {
+    "name": "Emergency Lighting Inspections",
+    "group": "Electrical & Gas Safety",
+    "summary": "Review emergency-lighting condition, testing evidence and identified defects.",
+    "href": "/emergency-lighting-inspection-birmingham/"
+  },
+  {
+    "name": "Commercial Gas Safety Inspections",
+    "group": "Electrical & Gas Safety",
+    "summary": "Scope gas-safety inspection work for existing commercial appliances and systems.",
+    "href": "/commercial-gas-safety-inspection-birmingham/"
+  }
+]

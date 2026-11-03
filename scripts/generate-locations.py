@@ -51,6 +51,11 @@ for name in ['index.html','about.html','quote.html']:
 manifest={'expectedLocationPages':101,'expectedPropertyPages':20,'pages':[{'file':'index.html','url':origin+'/','type':'location','location':'Birmingham','primaryKeyword':'Commercial EPC Birmingham'},*[{k:r[k] for k in ['file','url','type','location','primaryKeyword']} for r in records]]}
 (ROOT/'data/seo-pages.json').write_text(json.dumps(manifest,indent=2)+'\n');(ROOT/'data/generated-locations.json').write_text(json.dumps(records,indent=2)+'\n')
 ET.register_namespace('','http://www.sitemaps.org/schemas/sitemap/0.9');ns='{http://www.sitemaps.org/schemas/sitemap/0.9}';tree=ET.Element(ns+'urlset')
-for url in [origin+'/',origin+'/about',origin+'/quote',origin+'/locations/',*[r['url'] for r in records]]:ET.SubElement(ET.SubElement(tree,ns+'url'),ns+'loc').text=url
+for url in [origin+'/',origin+'/about',origin+'/quote',origin+'/locations/',origin+'/services/',*[origin+'/'+s['slug']+'/' for s in json.loads((ROOT/'data/service-pages.json').read_text())],*[r['url'] for r in records]]:ET.SubElement(ET.SubElement(tree,ns+'url'),ns+'loc').text=url
 ET.indent(tree);ET.ElementTree(tree).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 print(f'Generated {len(records)} location pages, directory and sitemap; homepage retained.')
+
+# Retain TM44 coverage and cross-links when regenerating shared pages.
+if (ROOT / "data/tm44-locations.json").exists():
+ import runpy
+ runpy.run_path(str(ROOT / "scripts/generate-tm44-locations.py"), run_name="__main__")
