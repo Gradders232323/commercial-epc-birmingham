@@ -1,0 +1,414 @@
+{
+  "checked": 102,
+  "failures": [],
+  "results": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-solihull/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-wolverhampton/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-walsall/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-sutton-coldfield/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-dudley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-west-bromwich/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-tamworth/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-redditch/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-bromsgrove/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-cannock/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-stourbridge/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-halesowen/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-lichfield/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-oldbury/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-smethwick/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-edgbaston/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-digbeth/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-jewellery-quarter/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-birmingham-city-centre/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-aston/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-erdington/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-perry-barr/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-moseley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-harborne/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-selly-oak/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-kings-heath/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-northfield/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-longbridge/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-yardley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-shirley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-great-barr/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-aldridge/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-wednesbury/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-willenhall/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-bilston/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-tipton/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-rowley-regis/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-cradley-heath/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-brownhills/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-bloxwich/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-worcester/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-kidderminster/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-droitwich-spa/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-stafford/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-burton-upon-trent/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-rugeley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-hednesford/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-burntwood/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-penkridge/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-telford/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-bridgnorth/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-shifnal/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-wellington/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-nuneaton/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-bedworth/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-atherstone/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-coleshill/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-warwick/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-leamington-spa/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-kenilworth/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-birmingham-business-park/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-blythe-valley-business-park/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-colmore-business-district/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-brindleyplace/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-eastside-birmingham/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-birmingham-airport/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-nec-birmingham/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-fort-dunlop/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-tyseley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-small-heath/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-sparkbrook/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-sparkhill/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-hall-green/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-acocks-green/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-sheldon/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-stechford/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-handsworth/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-ladywood/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-nechells/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-bordesley-green/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-castle-bromwich/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-minworth/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-castle-vale/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-streetly/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-wombourne/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-sedgley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-darlaston/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-wednesfield/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-coseley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-kings-norton/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-bournville/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-bearwood/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-rubery/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-alvechurch/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-wythall/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-knowle/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-dorridge/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-fazeley/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-wilnecote/",
+      "status": 200
+    },
+    {
+      "path": "/commercial-epc-polesworth/",
+      "status": 200
+    },
+    {
+      "path": "/locations/",
+      "status": 200
+    }
+  ]
+}

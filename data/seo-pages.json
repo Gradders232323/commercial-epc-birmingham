@@ -1,0 +1,713 @@
+{
+  "expectedLocationPages": 101,
+  "expectedPropertyPages": 20,
+  "pages": [
+    {
+      "file": "index.html",
+      "url": "https://birminghamcommercialepc.co.uk/",
+      "type": "location",
+      "location": "Birmingham",
+      "primaryKeyword": "Commercial EPC Birmingham"
+    },
+    {
+      "file": "commercial-epc-solihull/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-solihull/",
+      "type": "location",
+      "location": "Solihull",
+      "primaryKeyword": "Commercial EPC Solihull"
+    },
+    {
+      "file": "commercial-epc-wolverhampton/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-wolverhampton/",
+      "type": "location",
+      "location": "Wolverhampton",
+      "primaryKeyword": "Commercial EPC Wolverhampton"
+    },
+    {
+      "file": "commercial-epc-walsall/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-walsall/",
+      "type": "location",
+      "location": "Walsall",
+      "primaryKeyword": "Commercial EPC Walsall"
+    },
+    {
+      "file": "commercial-epc-sutton-coldfield/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-sutton-coldfield/",
+      "type": "location",
+      "location": "Sutton Coldfield",
+      "primaryKeyword": "Commercial EPC Sutton Coldfield"
+    },
+    {
+      "file": "commercial-epc-dudley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-dudley/",
+      "type": "location",
+      "location": "Dudley",
+      "primaryKeyword": "Commercial EPC Dudley"
+    },
+    {
+      "file": "commercial-epc-west-bromwich/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-west-bromwich/",
+      "type": "location",
+      "location": "West Bromwich",
+      "primaryKeyword": "Commercial EPC West Bromwich"
+    },
+    {
+      "file": "commercial-epc-tamworth/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-tamworth/",
+      "type": "location",
+      "location": "Tamworth",
+      "primaryKeyword": "Commercial EPC Tamworth"
+    },
+    {
+      "file": "commercial-epc-redditch/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-redditch/",
+      "type": "location",
+      "location": "Redditch",
+      "primaryKeyword": "Commercial EPC Redditch"
+    },
+    {
+      "file": "commercial-epc-bromsgrove/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-bromsgrove/",
+      "type": "location",
+      "location": "Bromsgrove",
+      "primaryKeyword": "Commercial EPC Bromsgrove"
+    },
+    {
+      "file": "commercial-epc-cannock/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-cannock/",
+      "type": "location",
+      "location": "Cannock",
+      "primaryKeyword": "Commercial EPC Cannock"
+    },
+    {
+      "file": "commercial-epc-stourbridge/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-stourbridge/",
+      "type": "location",
+      "location": "Stourbridge",
+      "primaryKeyword": "Commercial EPC Stourbridge"
+    },
+    {
+      "file": "commercial-epc-halesowen/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-halesowen/",
+      "type": "location",
+      "location": "Halesowen",
+      "primaryKeyword": "Commercial EPC Halesowen"
+    },
+    {
+      "file": "commercial-epc-lichfield/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-lichfield/",
+      "type": "location",
+      "location": "Lichfield",
+      "primaryKeyword": "Commercial EPC Lichfield"
+    },
+    {
+      "file": "commercial-epc-oldbury/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-oldbury/",
+      "type": "location",
+      "location": "Oldbury",
+      "primaryKeyword": "Commercial EPC Oldbury"
+    },
+    {
+      "file": "commercial-epc-smethwick/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-smethwick/",
+      "type": "location",
+      "location": "Smethwick",
+      "primaryKeyword": "Commercial EPC Smethwick"
+    },
+    {
+      "file": "commercial-epc-edgbaston/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-edgbaston/",
+      "type": "location",
+      "location": "Edgbaston",
+      "primaryKeyword": "Commercial EPC Edgbaston"
+    },
+    {
+      "file": "commercial-epc-digbeth/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-digbeth/",
+      "type": "location",
+      "location": "Digbeth",
+      "primaryKeyword": "Commercial EPC Digbeth"
+    },
+    {
+      "file": "commercial-epc-jewellery-quarter/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-jewellery-quarter/",
+      "type": "location",
+      "location": "Jewellery Quarter",
+      "primaryKeyword": "Commercial EPC Jewellery Quarter"
+    },
+    {
+      "file": "commercial-epc-birmingham-city-centre/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-birmingham-city-centre/",
+      "type": "location",
+      "location": "Birmingham City Centre",
+      "primaryKeyword": "Commercial EPC Birmingham City Centre"
+    },
+    {
+      "file": "commercial-epc-aston/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-aston/",
+      "type": "location",
+      "location": "Aston",
+      "primaryKeyword": "Commercial EPC Aston"
+    },
+    {
+      "file": "commercial-epc-erdington/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-erdington/",
+      "type": "location",
+      "location": "Erdington",
+      "primaryKeyword": "Commercial EPC Erdington"
+    },
+    {
+      "file": "commercial-epc-perry-barr/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-perry-barr/",
+      "type": "location",
+      "location": "Perry Barr",
+      "primaryKeyword": "Commercial EPC Perry Barr"
+    },
+    {
+      "file": "commercial-epc-moseley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-moseley/",
+      "type": "location",
+      "location": "Moseley",
+      "primaryKeyword": "Commercial EPC Moseley"
+    },
+    {
+      "file": "commercial-epc-harborne/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-harborne/",
+      "type": "location",
+      "location": "Harborne",
+      "primaryKeyword": "Commercial EPC Harborne"
+    },
+    {
+      "file": "commercial-epc-selly-oak/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-selly-oak/",
+      "type": "location",
+      "location": "Selly Oak",
+      "primaryKeyword": "Commercial EPC Selly Oak"
+    },
+    {
+      "file": "commercial-epc-kings-heath/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-kings-heath/",
+      "type": "location",
+      "location": "Kings Heath",
+      "primaryKeyword": "Commercial EPC Kings Heath"
+    },
+    {
+      "file": "commercial-epc-northfield/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-northfield/",
+      "type": "location",
+      "location": "Northfield",
+      "primaryKeyword": "Commercial EPC Northfield"
+    },
+    {
+      "file": "commercial-epc-longbridge/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-longbridge/",
+      "type": "location",
+      "location": "Longbridge",
+      "primaryKeyword": "Commercial EPC Longbridge"
+    },
+    {
+      "file": "commercial-epc-yardley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-yardley/",
+      "type": "location",
+      "location": "Yardley",
+      "primaryKeyword": "Commercial EPC Yardley"
+    },
+    {
+      "file": "commercial-epc-shirley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-shirley/",
+      "type": "location",
+      "location": "Shirley",
+      "primaryKeyword": "Commercial EPC Shirley"
+    },
+    {
+      "file": "commercial-epc-great-barr/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-great-barr/",
+      "type": "location",
+      "location": "Great Barr",
+      "primaryKeyword": "Commercial EPC Great Barr"
+    },
+    {
+      "file": "commercial-epc-aldridge/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-aldridge/",
+      "type": "location",
+      "location": "Aldridge",
+      "primaryKeyword": "Commercial EPC Aldridge"
+    },
+    {
+      "file": "commercial-epc-wednesbury/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-wednesbury/",
+      "type": "location",
+      "location": "Wednesbury",
+      "primaryKeyword": "Commercial EPC Wednesbury"
+    },
+    {
+      "file": "commercial-epc-willenhall/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-willenhall/",
+      "type": "location",
+      "location": "Willenhall",
+      "primaryKeyword": "Commercial EPC Willenhall"
+    },
+    {
+      "file": "commercial-epc-bilston/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-bilston/",
+      "type": "location",
+      "location": "Bilston",
+      "primaryKeyword": "Commercial EPC Bilston"
+    },
+    {
+      "file": "commercial-epc-tipton/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-tipton/",
+      "type": "location",
+      "location": "Tipton",
+      "primaryKeyword": "Commercial EPC Tipton"
+    },
+    {
+      "file": "commercial-epc-rowley-regis/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-rowley-regis/",
+      "type": "location",
+      "location": "Rowley Regis",
+      "primaryKeyword": "Commercial EPC Rowley Regis"
+    },
+    {
+      "file": "commercial-epc-cradley-heath/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-cradley-heath/",
+      "type": "location",
+      "location": "Cradley Heath",
+      "primaryKeyword": "Commercial EPC Cradley Heath"
+    },
+    {
+      "file": "commercial-epc-brownhills/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-brownhills/",
+      "type": "location",
+      "location": "Brownhills",
+      "primaryKeyword": "Commercial EPC Brownhills"
+    },
+    {
+      "file": "commercial-epc-bloxwich/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-bloxwich/",
+      "type": "location",
+      "location": "Bloxwich",
+      "primaryKeyword": "Commercial EPC Bloxwich"
+    },
+    {
+      "file": "commercial-epc-worcester/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-worcester/",
+      "type": "location",
+      "location": "Worcester",
+      "primaryKeyword": "Commercial EPC Worcester"
+    },
+    {
+      "file": "commercial-epc-kidderminster/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-kidderminster/",
+      "type": "location",
+      "location": "Kidderminster",
+      "primaryKeyword": "Commercial EPC Kidderminster"
+    },
+    {
+      "file": "commercial-epc-droitwich-spa/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-droitwich-spa/",
+      "type": "location",
+      "location": "Droitwich Spa",
+      "primaryKeyword": "Commercial EPC Droitwich Spa"
+    },
+    {
+      "file": "commercial-epc-stafford/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-stafford/",
+      "type": "location",
+      "location": "Stafford",
+      "primaryKeyword": "Commercial EPC Stafford"
+    },
+    {
+      "file": "commercial-epc-burton-upon-trent/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-burton-upon-trent/",
+      "type": "location",
+      "location": "Burton upon Trent",
+      "primaryKeyword": "Commercial EPC Burton upon Trent"
+    },
+    {
+      "file": "commercial-epc-rugeley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-rugeley/",
+      "type": "location",
+      "location": "Rugeley",
+      "primaryKeyword": "Commercial EPC Rugeley"
+    },
+    {
+      "file": "commercial-epc-hednesford/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-hednesford/",
+      "type": "location",
+      "location": "Hednesford",
+      "primaryKeyword": "Commercial EPC Hednesford"
+    },
+    {
+      "file": "commercial-epc-burntwood/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-burntwood/",
+      "type": "location",
+      "location": "Burntwood",
+      "primaryKeyword": "Commercial EPC Burntwood"
+    },
+    {
+      "file": "commercial-epc-penkridge/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-penkridge/",
+      "type": "location",
+      "location": "Penkridge",
+      "primaryKeyword": "Commercial EPC Penkridge"
+    },
+    {
+      "file": "commercial-epc-telford/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-telford/",
+      "type": "location",
+      "location": "Telford",
+      "primaryKeyword": "Commercial EPC Telford"
+    },
+    {
+      "file": "commercial-epc-bridgnorth/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-bridgnorth/",
+      "type": "location",
+      "location": "Bridgnorth",
+      "primaryKeyword": "Commercial EPC Bridgnorth"
+    },
+    {
+      "file": "commercial-epc-shifnal/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-shifnal/",
+      "type": "location",
+      "location": "Shifnal",
+      "primaryKeyword": "Commercial EPC Shifnal"
+    },
+    {
+      "file": "commercial-epc-wellington/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-wellington/",
+      "type": "location",
+      "location": "Wellington",
+      "primaryKeyword": "Commercial EPC Wellington"
+    },
+    {
+      "file": "commercial-epc-nuneaton/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-nuneaton/",
+      "type": "location",
+      "location": "Nuneaton",
+      "primaryKeyword": "Commercial EPC Nuneaton"
+    },
+    {
+      "file": "commercial-epc-bedworth/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-bedworth/",
+      "type": "location",
+      "location": "Bedworth",
+      "primaryKeyword": "Commercial EPC Bedworth"
+    },
+    {
+      "file": "commercial-epc-atherstone/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-atherstone/",
+      "type": "location",
+      "location": "Atherstone",
+      "primaryKeyword": "Commercial EPC Atherstone"
+    },
+    {
+      "file": "commercial-epc-coleshill/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-coleshill/",
+      "type": "location",
+      "location": "Coleshill",
+      "primaryKeyword": "Commercial EPC Coleshill"
+    },
+    {
+      "file": "commercial-epc-warwick/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-warwick/",
+      "type": "location",
+      "location": "Warwick",
+      "primaryKeyword": "Commercial EPC Warwick"
+    },
+    {
+      "file": "commercial-epc-leamington-spa/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-leamington-spa/",
+      "type": "location",
+      "location": "Leamington Spa",
+      "primaryKeyword": "Commercial EPC Leamington Spa"
+    },
+    {
+      "file": "commercial-epc-kenilworth/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-kenilworth/",
+      "type": "location",
+      "location": "Kenilworth",
+      "primaryKeyword": "Commercial EPC Kenilworth"
+    },
+    {
+      "file": "commercial-epc-birmingham-business-park/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-birmingham-business-park/",
+      "type": "location",
+      "location": "Birmingham Business Park",
+      "primaryKeyword": "Commercial EPC Birmingham Business Park"
+    },
+    {
+      "file": "commercial-epc-blythe-valley-business-park/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-blythe-valley-business-park/",
+      "type": "location",
+      "location": "Blythe Valley Business Park",
+      "primaryKeyword": "Commercial EPC Blythe Valley Business Park"
+    },
+    {
+      "file": "commercial-epc-colmore-business-district/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-colmore-business-district/",
+      "type": "location",
+      "location": "Colmore Business District",
+      "primaryKeyword": "Commercial EPC Colmore Business District"
+    },
+    {
+      "file": "commercial-epc-brindleyplace/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-brindleyplace/",
+      "type": "location",
+      "location": "Brindleyplace",
+      "primaryKeyword": "Commercial EPC Brindleyplace"
+    },
+    {
+      "file": "commercial-epc-eastside-birmingham/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-eastside-birmingham/",
+      "type": "location",
+      "location": "Eastside Birmingham",
+      "primaryKeyword": "Commercial EPC Eastside Birmingham"
+    },
+    {
+      "file": "commercial-epc-birmingham-airport/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-birmingham-airport/",
+      "type": "location",
+      "location": "Birmingham Airport",
+      "primaryKeyword": "Commercial EPC Birmingham Airport"
+    },
+    {
+      "file": "commercial-epc-nec-birmingham/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-nec-birmingham/",
+      "type": "location",
+      "location": "NEC Birmingham",
+      "primaryKeyword": "Commercial EPC NEC Birmingham"
+    },
+    {
+      "file": "commercial-epc-fort-dunlop/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-fort-dunlop/",
+      "type": "location",
+      "location": "Fort Dunlop",
+      "primaryKeyword": "Commercial EPC Fort Dunlop"
+    },
+    {
+      "file": "commercial-epc-tyseley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-tyseley/",
+      "type": "location",
+      "location": "Tyseley",
+      "primaryKeyword": "Commercial EPC Tyseley"
+    },
+    {
+      "file": "commercial-epc-small-heath/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-small-heath/",
+      "type": "location",
+      "location": "Small Heath",
+      "primaryKeyword": "Commercial EPC Small Heath"
+    },
+    {
+      "file": "commercial-epc-sparkbrook/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-sparkbrook/",
+      "type": "location",
+      "location": "Sparkbrook",
+      "primaryKeyword": "Commercial EPC Sparkbrook"
+    },
+    {
+      "file": "commercial-epc-sparkhill/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-sparkhill/",
+      "type": "location",
+      "location": "Sparkhill",
+      "primaryKeyword": "Commercial EPC Sparkhill"
+    },
+    {
+      "file": "commercial-epc-hall-green/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-hall-green/",
+      "type": "location",
+      "location": "Hall Green",
+      "primaryKeyword": "Commercial EPC Hall Green"
+    },
+    {
+      "file": "commercial-epc-acocks-green/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-acocks-green/",
+      "type": "location",
+      "location": "Acocks Green",
+      "primaryKeyword": "Commercial EPC Acocks Green"
+    },
+    {
+      "file": "commercial-epc-sheldon/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-sheldon/",
+      "type": "location",
+      "location": "Sheldon",
+      "primaryKeyword": "Commercial EPC Sheldon"
+    },
+    {
+      "file": "commercial-epc-stechford/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-stechford/",
+      "type": "location",
+      "location": "Stechford",
+      "primaryKeyword": "Commercial EPC Stechford"
+    },
+    {
+      "file": "commercial-epc-handsworth/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-handsworth/",
+      "type": "location",
+      "location": "Handsworth",
+      "primaryKeyword": "Commercial EPC Handsworth"
+    },
+    {
+      "file": "commercial-epc-ladywood/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-ladywood/",
+      "type": "location",
+      "location": "Ladywood",
+      "primaryKeyword": "Commercial EPC Ladywood"
+    },
+    {
+      "file": "commercial-epc-nechells/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-nechells/",
+      "type": "location",
+      "location": "Nechells",
+      "primaryKeyword": "Commercial EPC Nechells"
+    },
+    {
+      "file": "commercial-epc-bordesley-green/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-bordesley-green/",
+      "type": "location",
+      "location": "Bordesley Green",
+      "primaryKeyword": "Commercial EPC Bordesley Green"
+    },
+    {
+      "file": "commercial-epc-castle-bromwich/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-castle-bromwich/",
+      "type": "location",
+      "location": "Castle Bromwich",
+      "primaryKeyword": "Commercial EPC Castle Bromwich"
+    },
+    {
+      "file": "commercial-epc-minworth/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-minworth/",
+      "type": "location",
+      "location": "Minworth",
+      "primaryKeyword": "Commercial EPC Minworth"
+    },
+    {
+      "file": "commercial-epc-castle-vale/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-castle-vale/",
+      "type": "location",
+      "location": "Castle Vale",
+      "primaryKeyword": "Commercial EPC Castle Vale"
+    },
+    {
+      "file": "commercial-epc-streetly/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-streetly/",
+      "type": "location",
+      "location": "Streetly",
+      "primaryKeyword": "Commercial EPC Streetly"
+    },
+    {
+      "file": "commercial-epc-wombourne/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-wombourne/",
+      "type": "location",
+      "location": "Wombourne",
+      "primaryKeyword": "Commercial EPC Wombourne"
+    },
+    {
+      "file": "commercial-epc-sedgley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-sedgley/",
+      "type": "location",
+      "location": "Sedgley",
+      "primaryKeyword": "Commercial EPC Sedgley"
+    },
+    {
+      "file": "commercial-epc-darlaston/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-darlaston/",
+      "type": "location",
+      "location": "Darlaston",
+      "primaryKeyword": "Commercial EPC Darlaston"
+    },
+    {
+      "file": "commercial-epc-wednesfield/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-wednesfield/",
+      "type": "location",
+      "location": "Wednesfield",
+      "primaryKeyword": "Commercial EPC Wednesfield"
+    },
+    {
+      "file": "commercial-epc-coseley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-coseley/",
+      "type": "location",
+      "location": "Coseley",
+      "primaryKeyword": "Commercial EPC Coseley"
+    },
+    {
+      "file": "commercial-epc-kings-norton/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-kings-norton/",
+      "type": "location",
+      "location": "Kings Norton",
+      "primaryKeyword": "Commercial EPC Kings Norton"
+    },
+    {
+      "file": "commercial-epc-bournville/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-bournville/",
+      "type": "location",
+      "location": "Bournville",
+      "primaryKeyword": "Commercial EPC Bournville"
+    },
+    {
+      "file": "commercial-epc-bearwood/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-bearwood/",
+      "type": "location",
+      "location": "Bearwood",
+      "primaryKeyword": "Commercial EPC Bearwood"
+    },
+    {
+      "file": "commercial-epc-rubery/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-rubery/",
+      "type": "location",
+      "location": "Rubery",
+      "primaryKeyword": "Commercial EPC Rubery"
+    },
+    {
+      "file": "commercial-epc-alvechurch/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-alvechurch/",
+      "type": "location",
+      "location": "Alvechurch",
+      "primaryKeyword": "Commercial EPC Alvechurch"
+    },
+    {
+      "file": "commercial-epc-wythall/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-wythall/",
+      "type": "location",
+      "location": "Wythall",
+      "primaryKeyword": "Commercial EPC Wythall"
+    },
+    {
+      "file": "commercial-epc-knowle/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-knowle/",
+      "type": "location",
+      "location": "Knowle",
+      "primaryKeyword": "Commercial EPC Knowle"
+    },
+    {
+      "file": "commercial-epc-dorridge/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-dorridge/",
+      "type": "location",
+      "location": "Dorridge",
+      "primaryKeyword": "Commercial EPC Dorridge"
+    },
+    {
+      "file": "commercial-epc-fazeley/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-fazeley/",
+      "type": "location",
+      "location": "Fazeley",
+      "primaryKeyword": "Commercial EPC Fazeley"
+    },
+    {
+      "file": "commercial-epc-wilnecote/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-wilnecote/",
+      "type": "location",
+      "location": "Wilnecote",
+      "primaryKeyword": "Commercial EPC Wilnecote"
+    },
+    {
+      "file": "commercial-epc-polesworth/index.html",
+      "url": "https://birminghamcommercialepc.co.uk/commercial-epc-polesworth/",
+      "type": "location",
+      "location": "Polesworth",
+      "primaryKeyword": "Commercial EPC Polesworth"
+    }
+  ]
+}

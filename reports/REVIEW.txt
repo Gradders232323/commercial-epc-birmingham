@@ -1,0 +1,28 @@
+BIRMINGHAM COMMERCIAL EPC — LOCAL LOCATION-PAGE REVIEW
+
+100 supplied location routes generated, plus the existing Birmingham homepage.
+No publication or remote GitHub push has been performed.
+
+SEO validation: 101/101 geographical pages pass exact primary-keyword placement
+in title, H1, description and opening copy. All titles are 50–60 characters and
+all descriptions are 140–160 characters. H1s, titles and descriptions are unique;
+H1s differ from titles; normalised descriptions do not share a location-swap
+skeleton. Exact-keyword repetition checks pass. Automated checks do not establish
+ranking, indexing, conversion performance or replace editorial judgement.
+
+The content uses individually written property-scoping notes for each supplied
+location. It does not claim a local office, completed project or location-specific
+appointment availability. Shared service/process modules remain consistent.
+
+Site validation: 104 indexable pages and sitemap URLs, 100 directory links, no
+broken internal destinations or duplicate IDs. All 102 geographical/directory
+HTTP checks passed. Existing 13 quote/photography tests passed. Desktop Solihull
+and mobile Blythe Valley Business Park layouts were visually checked.
+
+reports/seo-audit.html and seo-audit.csv contain the requested full audit table.
+reports/seo-audit.json contains the check details and pending-scope count.
+
+20 PROPERTY-TYPE PAGES ARE PENDING THE USER'S APPROVED LIST.
+The full-scope audit intentionally remains incomplete while those are absent.
+Use --require-locations for the completed geographical scope, --require-complete
+for the combined geographical and property-type scope.

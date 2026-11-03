@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+from pathlib import Path
+from html import escape
+import re,json,csv,xml.etree.ElementTree as ET
+ROOT=Path(__file__).resolve().parent.parent
+home=(ROOT/'index.html').read_text();origin='https://birminghamcommercialepc.co.uk'
+header=re.search(r'<div class="topline">.*?</header>',home,re.S)[0].replace('href="#services"','href="/#services"').replace('href="#guides"','href="/#guides"').replace('href="#coverage"','href="/locations/"')
+footer=re.search(r'<footer\b.*?</footer>',home,re.S)[0].replace('href="#services"','href="/#services"').replace('href="#guides"','href="/#guides"').replace('href="#coverage"','href="/locations/"')
+head=re.search(r'<head>(.*?)</head>',home,re.S)[1].replace('href="styles.css?v=20261017-photos"','href="/styles.css?v=20261103-locations"')
+records=[]
+for i,line in enumerate((ROOT/'data/location-editorial.tsv').read_text().splitlines()):
+ name,title_suffix,h1_suffix,description,note=line.split('|');key='Commercial EPC '+name
+ slug='commercial-epc-'+re.sub(r'[^a-z0-9]+','-',name.lower()).strip('-');url=origin+'/'+slug+'/'
+ title=key+' | '+title_suffix
+ # Long location names take precedence over a strict title-width target.
+ if not 50<=len(title)<=60:
+  options=['Energy Performance Certificates','Commercial Building Assessments','Property Assessment Quotes','Business Premises EPC Surveys','Commercial Property EPCs','Building Assessment Quotes','Energy Certificate Quotations','Property EPC Quotes','Survey Quotes','EPC Quotes']
+  fitting=[x for x in options if 50<=len(key+' | '+x)<=60]
+  if fitting:title=key+' | '+fitting[i%len(fitting)]
+ desc=description.replace('{k}',key)
+ h1=key+' – '+h1_suffix
+ lead_patterns=[f'Arrange your {key} assessment around the building and the transaction.',f'Begin your {key} enquiry with a precise description of the premises.',f'For your {key} quotation, start with the property address and its current use.',f'Plan your {key} survey using the records and layout information you have.',f'A {key} assessment starts with understanding the premises you need certified.']
+ lead=lead_patterns[i%5]+' '+note
+ record={'file':slug+'/index.html','url':url,'type':'location','location':name,'primaryKeyword':key,'title':title,'h1':h1,'description':desc,'note':note,'lead':lead,'slug':slug}
+ records.append(record)
+assert len(records)==100 and len({r['slug'] for r in records})==100
+for i,r in enumerate(records):
+ name=r['location'];key=r['primaryKeyword'];e=escape
+ pagehead=re.sub(r'<title>.*?</title>',lambda _:f'<title>{e(r["title"])}</title>',head,flags=re.S)
+ for pattern,value in [(r'(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*(">)',r['description']),(r'(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*(">)',r['title']),(r'(<link rel="canonical" href=")[^"]*(">)',r['url']),(r'(<meta property="og:url" content=")[^"]*(">)',r['url'])]:
+  pagehead=re.sub(pattern,lambda m:m[1]+e(value,quote=True)+m[2],pagehead)
+ siblings=[records[(i+j)%100] for j in (1,2,3)]
+ # Related directory entries are explicitly a browsing sequence, not a proximity claim.
+ related=''.join(f'<li><a href="/{x["slug"]}/">{e(x["primaryKeyword"])}</a></li>' for x in siblings)
+ schema={'@context':'https://schema.org','@graph':[{'@type':'Service','name':key,'serviceType':'Commercial energy performance assessment','areaServed':{'@type':'Place','name':name},'url':r['url'],'provider':{'@type':'Organization','name':'Birmingham Commercial EPC','url':origin}},{'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':origin+'/'},{'@type':'ListItem','position':2,'name':'Locations','item':origin+'/locations/'},{'@type':'ListItem','position':3,'name':name,'item':r['url']}]}]}
+ brief=f'''<section class="section location-brief"><div><p class="kicker">Your {e(name)} property brief</p><h2>Make the premises<br/>clear from the start.</h2></div><div><p>{e(r['note'])}</p><p>The full address, approximate floor area and assessment purpose are the starting point. Add current floor plans, a previous certificate or details of alterations if you have them. If information is missing, identify the gap rather than guessing.</p><p>A quotation should relate to the property being assessed. It should make clear which premises and survey work are included, how access will be arranged and what information is needed before the visit.</p></div></section>'''
+ prepare='''<section class="section stone"><div class="section-heading"><p class="kicker">Before the survey</p><h2>Useful information. Fewer uncertainties.</h2></div><div class="service-grid"><article><b>01</b><h3>Define the boundary</h3><p>Identify the unit, floors and supporting spaces included. Explain shared areas or equipment and name any separate occupiers.</p></article><article><b>02</b><h3>Share the records</h3><p>Plans, service details and evidence of completed improvements can help the assessor understand the building. Confirm whether drawings are current.</p></article><article><b>03</b><h3>Arrange full access</h3><p>Nominate a site contact and flag locked rooms, operational restrictions, inductions or equipment areas that need permission to enter.</p></article><article><b>04</b><h3>Explain the timescale</h3><p>State any sale, letting or property-management deadline. Agree availability and reporting arrangements before relying on a particular date.</p></article></div></section>'''
+ faq=f'''<section class="section split"><div><p class="kicker">Questions before you enquire</p><h2>Scope first.<br/>Then the next step.</h2></div><div class="faqs"><details><summary>What should I send about my {e(name)} premises?</summary><p>{e(r['note'])} Include the full postcode, approximate size and purpose of the assessment so the enquiry can be reviewed.</p></details><details><summary>Can I start without a complete building file?</summary><p>Yes. Share the records you have and explain what is unavailable. Additional details may be requested to confirm the scope and quotation.</p></details><details><summary>What if the property has several uses or tenants?</summary><p>Describe each part and identify the premises within your instruction. A marked plan and contacts for shared services can help clarify the proposed assessment.</p></details><details><summary>How do I request a property quotation?</summary><p>Use the quote page, choose Commercial EPC and include the address of your {e(name)} property. Explain any access constraints or approaching transaction dates.</p></details></div></section>'''
+ schema_json=json.dumps(schema).replace('<',chr(92)+'u003c')
+ content=f'''<!doctype html><html lang="en"><head>{pagehead}<script type="application/ld+json">{schema_json}</script></head><body>{header}<main class="location-page"><section class="section dark location-hero"><nav class="location-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/locations/">Locations</a><span>/</span><span>{e(name)}</span></nav><p class="kicker lime-text">Commercial property assessment enquiries</p><h1>{e(key)}<em>{e(r['h1'].split(' – ',1)[1])}</em></h1><p class="lead muted-light">{e(r['lead'])}</p><a class="button brass-button" href="/quote">Request your property quote <span aria-hidden="true">→</span></a></section>{brief}{prepare}{faq}<section class="section stone location-next"><div><p class="kicker">Commercial energy performance certificates</p><h2>Your building.<br/>A property-specific quotation.</h2><p>Start with the details you know. Select the service you need and confirm the property address in the shared quote form. Any visit remains subject to the arrangements agreed for your enquiry.</p><a class="button dark-button" href="/quote">Get an assessment quote →</a></div><div><h3>Explore other location guides</h3><ul>{related}</ul><a class="text-link" href="/locations/">View all locations →</a><p><a href="/">Commercial EPC Birmingham — main service page</a></p></div></section></main>{footer}<script src="/site.js"></script></body></html>'''
+ path=ROOT/r['file'];path.parent.mkdir(exist_ok=True);path.write_text(content)
+# A crawlable alphabetical directory keeps every generated route discoverable.
+items=''.join(f'<li><a href="/{r["slug"]}/">{e(r["primaryKeyword"])}</a></li>' for r in sorted(records,key=lambda r:r['location']))
+directoryhead=re.sub(r'<title>.*?</title>','<title>Commercial EPC Locations | Birmingham &amp; Surrounding Areas</title>',head,flags=re.S)
+directoryhead=re.sub(r'(<link rel="canonical" href=")[^"]*(">)',lambda m:m[1]+origin+'/locations/'+m[2],directoryhead)
+for marker,value in [('name="description"','Browse commercial EPC assessment enquiries for 100 locations, from Birmingham districts to business parks and surrounding towns. Find your property area.'),('property="og:title"','Commercial EPC Locations | Birmingham & Surrounding Areas'),('name="twitter:title"','Commercial EPC Locations | Birmingham & Surrounding Areas'),('property="og:description"','Explore all 100 commercial EPC location guides and request a property-specific quotation.'),('name="twitter:description"','Explore all 100 commercial EPC location guides and request a property-specific quotation.'),('property="og:url"',origin+'/locations/')]:directoryhead=re.sub(r'(<meta '+marker+r' content=")[^"]*(">)',lambda m:m[1]+e(value,quote=True)+m[2],directoryhead)
+p=ROOT/'locations/index.html';p.parent.mkdir(exist_ok=True);p.write_text(f'<!doctype html><html lang="en"><head>{directoryhead}</head><body>{header}<main><section class="section dark location-hero"><p class="kicker lime-text">Find your property area</p><h1>Commercial EPC locations<em>Birmingham and surrounding areas.</em></h1><p class="lead muted-light">Explore the 100 location guides below. Coverage pages identify enquiry areas, not local branch offices. Include the full property postcode so scope and appointment arrangements can be confirmed.</p></section><section class="section"><ul class="location-directory">{items}</ul></section></main>{footer}<script src="/site.js"></script></body></html>')
+# Update shared discoverability without altering the quotation integration.
+for name in ['index.html','about.html','quote.html']:
+ p=ROOT/name;s=p.read_text().replace('href="#coverage"','href="/locations/"');p.write_text(s)
+manifest={'expectedLocationPages':101,'expectedPropertyPages':20,'pages':[{'file':'index.html','url':origin+'/','type':'location','location':'Birmingham','primaryKeyword':'Commercial EPC Birmingham'},*[{k:r[k] for k in ['file','url','type','location','primaryKeyword']} for r in records]]}
+(ROOT/'data/seo-pages.json').write_text(json.dumps(manifest,indent=2)+'\n');(ROOT/'data/generated-locations.json').write_text(json.dumps(records,indent=2)+'\n')
+ET.register_namespace('','http://www.sitemaps.org/schemas/sitemap/0.9');ns='{http://www.sitemaps.org/schemas/sitemap/0.9}';tree=ET.Element(ns+'urlset')
+for url in [origin+'/',origin+'/about',origin+'/quote',origin+'/locations/',*[r['url'] for r in records]]:ET.SubElement(ET.SubElement(tree,ns+'url'),ns+'loc').text=url
+ET.indent(tree);ET.ElementTree(tree).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
+print(f'Generated {len(records)} location pages, directory and sitemap; homepage retained.')

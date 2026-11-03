@@ -44,3 +44,21 @@ not a claim that the pictured buildings are completed client projects.
 ## Publishing
 
 The site is ready for GitHub Pages. In the repository settings, choose **Pages → Deploy from a branch**, then select the `main` branch and `/ (root)` folder.
+
+## Location and property-page SEO
+
+`data/seo-pages.json` is the explicit page inventory. Add each approved page with
+its source file, canonical URL, page type and exact primary keyword. The repository contains the Birmingham homepage and 100 supplied location
+landing pages, plus a crawlable `/locations/` directory. The 20 property types
+remain pending their approved list.
+
+Regenerate with `python3 scripts/generate-locations.py` from the individually
+written metadata and scoping notes in `data/location-editorial.tsv`.
+
+Run `python3 scripts/audit-seo.py --require-locations` to verify the supplied
+location scope, or
+`python3 scripts/audit-seo.py --require-complete` to fail unless the full planned
+scope exists. HTML, CSV and JSON reports are written to `reports/seo-audit.*`.
+The checks cover exact keyword placement, individual field uniqueness, one H1,
+H1/title differences, repeated description skeletons, character counts and an
+exact-keyword repetition flag. Editorial review remains necessary for naturalness.
