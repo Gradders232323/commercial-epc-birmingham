@@ -51,8 +51,8 @@ if tm44:
   page=data[row['slug']+'/index.html']
   if page.h1text.strip()!=row['h1']:errors.append(f'TM44 H1 mismatch: {path}')
   if page.canonical!=['https://birminghamcommercialepc.co.uk'+path]:errors.append(f'TM44 canonical mismatch: {path}')
-  if '/'+row['epcSlug']+'/' not in page.links:errors.append(f'TM44 missing related EPC: {path}')
-  if path not in data[row['epcSlug']+'/index.html'].links:errors.append(f'EPC missing related TM44: {path}')
+  if (('/'+row['epcSlug']+'/') if row['epcSlug'] else '/') not in page.links:errors.append(f'TM44 missing related EPC: {path}')
+  if row['epcSlug'] and path not in data[row['epcSlug']+'/index.html'].links:errors.append(f'EPC missing related TM44: {path}')
 directory=data['locations/index.html'];location_paths={urlsplit(r['url']).path for r in json.loads((ROOT/'data/seo-pages.json').read_text())['pages'][1:]}
 if not location_paths.issubset(set(directory.links)):errors.append('Directory does not link to every location')
 result={'htmlPages':len(pages),'indexablePages':len(pages)-1,'sitemapUrls':len(urls),'locationDirectoryLinks':len(location_paths),'errors':errors,'status':'PASS' if not errors else 'FAIL'}

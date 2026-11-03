@@ -69,12 +69,16 @@ The `/services/` overview links 17 services: the established EPC homepage plus 1
 
 ## Birmingham TM44 location pages
 
-`data/tm44-locations.json` contains 50 individually scoped commercial-property
+`data/tm44-locations.json` contains 22 individually scoped main-town commercial-property
 briefs and unique metadata. Run `python3 scripts/generate-tm44-locations.py` to
 render `/tm44-inspections-<location>/`, the `/tm44-locations/` directory, related
 EPC/service links and sitemap entries. The EPC and service generators retain
 this coverage when rerun. The established `/tm44-inspection-birmingham/` remains
 the main Birmingham TM44 service page. `scripts/validate-site.py` verifies all
-172 indexable URLs and reciprocal EPC/TM44 links. Quote links retain `/quote` and
+144 indexable URLs and reciprocal EPC/TM44 links. Quote links retain `/quote` and
 the existing Birmingham shared form. No pricing or provider credentials were
 added. Statutory scope is linked to government air-conditioning guidance.
+
+The TM44 directory lists Birmingham first using its established service URL, then
+22 main nearby towns and cities. Districts, business parks and venues are excluded
+from TM44 coverage; the established Commercial EPC location scope is retained.
